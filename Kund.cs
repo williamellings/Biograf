@@ -4,7 +4,7 @@ namespace Biograf
 {
     public class Kund : Visning
     {
-        public object Pris { get; private set; }
+        public int Pris { get; set; }
 
         public virtual void BuyTicket()
         {

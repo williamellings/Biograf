@@ -2,9 +2,8 @@
 
 namespace Biograf
 {
-    public class Kund : Visning
+    public class Kund : Biljett
     {
-        public int Pris { get; set; }
 
         public virtual void BuyTicket()
         {

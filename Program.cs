@@ -11,6 +11,7 @@
             Thor.Day = "Söndag";
             Thor.SalongNummer = 4;
             Thor.Pris = 170;
+            Thor.Epost = "Thor@hammaren.com";
             Thor.BuyTicket();
             
         }
